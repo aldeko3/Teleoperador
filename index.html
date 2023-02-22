@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Te vendo he dicho!</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <img class="fondo" src="images/fondo.jpeg" alt="AUPAAA TXIRRINDULARIII">
+        <img class="gif" src="images/background.gif" alt="TE VENDOOOOOO">
+    </div>
+    <audio id="myAudio" autoplay>
+        <source src="audio/audio.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        window.addEventListener('load', function () {
+            var x = document.getElementById("myAudio").autoplay;
+            document.getElementById("demo").innerHTML = x;
+        });
+    </script>
+</body>
+
+</html>
